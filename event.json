@@ -2,8 +2,8 @@
     "eventVersion": "1.05",
     "userIdentity": {
         "type": "AssumedRole",
-        "principalId": "AROAIW2DyuihNAH5QXNFK:bhaskern",
-        "arn": "arn:aws:sts::000000000000:assumed-role/DO-NOT-DELETE/bhaskern",
+        "principalId": "AROAIW2DyuihNAH5QXNFK:nalinb",
+        "arn": "arn:aws:sts::000000000000:assumed-role/DO-NOT-DELETE/nalinb",
         "accountId": "000000000000",
         "accessKeyId": "ASIAJQ5V4AO7M5RS4SIA",
         "sessionContext": {
