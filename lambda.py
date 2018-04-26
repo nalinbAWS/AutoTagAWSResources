@@ -9,8 +9,8 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
  
 def lambda_handler(event, context):
-    #logger.info('Event: ' + str(event))
-    #print('Received event: ' + json.dumps(event, indent=2))
+    logger.info('Event: ' + str(event))
+    print('Received event: ' + json.dumps(event, indent=2))
  
     ids = []
  
@@ -87,7 +87,7 @@ def lambda_handler(event, context):
             for resourceid in ids:
                 print('Tagging resource ' + resourceid)
             ec2.create_tags(Resources=ids, Tags=[{'Key': 'Owner', 'Value': user}, {'Key': 'PrincipalId', 'Value': principal}])
- 
+
         logger.info(' Remaining time (ms): ' + str(context.get_remaining_time_in_millis()) + '\n')
         return True
     except Exception as e:
