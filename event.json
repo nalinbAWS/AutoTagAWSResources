@@ -1,0 +1,47 @@
+{
+    "eventVersion": "1.05",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAIW2DQOGWNAH5QXNFK:bhaskern",
+        "arn": "arn:aws:sts::985035407621:assumed-role/ConduitAccessClientRole-DO-NOT-DELETE/bhaskern",
+        "accountId": "985035407621",
+        "accessKeyId": "ASIAJQ5V4AO7M5RS4SIA",
+        "sessionContext": {
+            "attributes": {
+                "mfaAuthenticated": "false",
+                "creationDate": "2018-04-25T07:26:35Z"
+            },
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROAIW2DQOGWNAH5QXNFK",
+                "arn": "arn:aws:iam::985035407621:role/ConduitAccessClientRole-DO-NOT-DELETE",
+                "accountId": "985035407621",
+                "userName": "ConduitAccessClientRole-DO-NOT-DELETE"
+            }
+        }
+    },
+    "eventTime": "2018-04-25T08:09:22Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "AttachVolume",
+    "awsRegion": "us-west-2",
+    "sourceIPAddress": "205.251.233.179",
+    "userAgent": "console.ec2.amazonaws.com",
+    "requestParameters": {
+        "volumeId": "vol-08e204cb84f9787fe",
+        "instanceId": "i-0d1816f205d34a574",
+        "device": "xvdf",
+        "deleteOnTermination": false
+    },
+    "responseElements": {
+        "volumeId": "vol-08e204cb84f9787fe",
+        "instanceId": "i-0d1816f205d34a574",
+        "device": "xvdf",
+        "status": "attaching",
+        "attachTime": 1524643762201,
+        "deleteOnTermination": false
+    },
+    "requestID": "e87ca190-4a7d-4f36-9faa-b49b864a7cb4",
+    "eventID": "9207f634-353e-49e1-80e3-139ea35377df",
+    "eventType": "AwsApiCall",
+    "recipientAccountId": "985035407621"
+}
