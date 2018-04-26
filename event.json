@@ -2,9 +2,9 @@
     "eventVersion": "1.05",
     "userIdentity": {
         "type": "AssumedRole",
-        "principalId": "AROAIW2DQOGWNAH5QXNFK:bhaskern",
-        "arn": "arn:aws:sts::985035407621:assumed-role/ConduitAccessClientRole-DO-NOT-DELETE/bhaskern",
-        "accountId": "985035407621",
+        "principalId": "AROAIW2DyuihNAH5QXNFK:bhaskern",
+        "arn": "arn:aws:sts::000000000000:assumed-role/DO-NOT-DELETE/bhaskern",
+        "accountId": "000000000000",
         "accessKeyId": "ASIAJQ5V4AO7M5RS4SIA",
         "sessionContext": {
             "attributes": {
@@ -13,10 +13,10 @@
             },
             "sessionIssuer": {
                 "type": "Role",
-                "principalId": "AROAIW2DQOGWNAH5QXNFK",
-                "arn": "arn:aws:iam::985035407621:role/ConduitAccessClientRole-DO-NOT-DELETE",
+                "principalId": "AROAIW2DyuihNAH5QXNFK",
+                "arn": "arn:aws:iam::985035407621:role/DO-NOT-DELETE",
                 "accountId": "985035407621",
-                "userName": "ConduitAccessClientRole-DO-NOT-DELETE"
+                "userName": "DO-NOT-DELETE"
             }
         }
     },
